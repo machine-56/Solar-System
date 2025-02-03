@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/sun.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body background="./images/bg-2.png"
+    style="background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg nav-custom-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/icon.png" id="icon-img" alt="icon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- /navbar -->
+    
+    <!-- main -->
+     <div class="container sub-page">
+        <div class="subpage-title">
+            <h2>Mercury</h2>
+        </div>
+        <div class="subpage-image">
+            <img src="./images/mercury.gif" alt="mercury">
+        </div>
+        <div class="subpage-para">
+            <p>
+                Mercury is a rocky, heavily cratered world, resembling the Moon in appearance. Due to its lack of atmosphere, it cannot retain heat, causing the biggest temperature difference in the solar system. Despite its proximity to the Sun, Mercury isn't the hottest planet—Venus holds that title. A day on Mercury is 176 Earth days long, meaning its surface experiences prolonged periods of scorching heat and deep freeze. The planet has a high iron content, making it extremely dense. NASA's MESSENGER spacecraft provided most of our detailed knowledge of Mercury.
+            </p>
+        </div>
+        <div class="subpage-table">
+            <table class="table table-bordered table-responsive table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Distance from Sun</td>
+                        <td>0.39 AU</td>
+                    </tr>
+                    <tr>
+                        <td>Diameter</td>
+                        <td>4,880 km (0.38 Earths)</td>
+                    </tr>
+                    <tr>
+                        <td>Mass</td>
+                        <td>0.055 Earths</td>
+                    </tr>
+                    <tr>
+                        <td>Orbital Period</td>
+                        <td>88 Earth days</td>
+                    </tr>
+                    <tr>
+                        <td>1 Day Length</td>
+                        <td>176 Earth days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+    <!-- /main -->
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

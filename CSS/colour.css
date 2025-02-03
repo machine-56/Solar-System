@@ -1,0 +1,14 @@
+:root {
+    --text-color: #E0E0E0;      /* Soft White for main text */
+    --primary-blue: #66CCFF;     /* Light Blue for interactive elements */
+    --neon-cyan: #00FFFF;        /* Neon Cyan for glowing effects */
+    --accent-purple: #7D5BA6;    /* Deep Purple for highlights */
+    --accent-orange: #FF8C42;    /* Warm Orange for emphasis */
+    --accent-pink: #FF4F8B;      /* Electric Pink for vibrant highlights */
+    --dark-bg: #0A0A0A;          /* Very dark background (fallback if needed) */
+    --dark-bg-tranp: #0000009d;  /* Very dark background with transperant effect */
+    --secondary-bg: #222831;     /* Dark Gray for cards or sections */
+    --star-glow: #FFD700;        /* Star Glow Yellow for sun-like elements */
+    --white: #ffffff;
+  }
+  

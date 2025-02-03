@@ -1,0 +1,35 @@
+@import url(./colour.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/bg-2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Pochaevsk";
+}
+
+/* navbar */
+
+.nav-custom-bg{
+    background-color: transparent;
+    .navbar-nav{
+        .nav-link{
+            color: var(--text-color);
+        }
+        .nav-link.active{
+            color: var(--primary-blue);
+        }
+    }
+    #icon-img{
+        width: 50px;
+        height: auto;
+    }
+}
+
+

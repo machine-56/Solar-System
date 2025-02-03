@@ -1,0 +1,106 @@
+@import url(./colour.css);
+
+.threeDImage{
+    width: 100%;
+    height: 80vh;
+    margin-top: 3rem;
+    #image-frame{
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+        position: relative;
+        border-radius: 10px;;
+        border: 1px solid #ffffff;
+    }
+}
+
+.container-fluid{
+    padding: 1rem  0 0 0;
+    margin: 5px 0;
+    background-color: var(--dark-bg-tranp);
+}
+
+.title-div{
+    text-align: center;
+    align-items: center;
+    margin: 3rem 0;
+    color: var(--text-color);
+}
+
+.info-box{
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+    background-color: var(--dark-bg-tranp);
+    color: var(--text-color);
+    box-shadow: 0pc 0px 10px var(--text-color);
+    transition: all 0.3s ease-in-out;
+    a{
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    &:hover{
+        transform: scale(1.02);
+        box-shadow: 0pc 0px 15px var(--text-color);
+    }
+
+    .infoBox-txt{
+        text-align: center;
+    }
+    .infoBox-content{
+        display: flex;
+
+        .infoBoxContent-img{
+            width: 650px ;
+            height: 300px;
+            img{
+                width: 100%;
+                height: 100%;
+                padding: 1rem;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+        .infoBoxContent-para{
+            margin: 2rem 0;
+            text-align: justify;
+            p{
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .threeDImage{
+        width: 80%;
+        height: 80vh;
+        margin-top: 1rem;
+    }
+
+    .infoBox-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .infoBoxContent-img{
+            width: 350px !important;
+            height: 350px !important;
+            margin: 1rem;
+            img{
+                border-radius: 10% !important;
+                object-fit: cover;
+            }
+        }
+
+        .infoBoxContent-para{
+            margin: 0 !important;
+            text-align: center;
+            p{
+                padding: 1rem;
+            }
+        }
+    }
+}
