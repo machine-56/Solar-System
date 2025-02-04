@@ -1,5 +1,12 @@
 @import url(./colour.css);
 
+
+.container{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--dark-bg-tranp);
+}
+
 .gallery-img{
     width: 180px;
     height: 180px;

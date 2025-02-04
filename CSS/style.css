@@ -32,4 +32,10 @@ body{
     }
 }
 
-
+.footer-main{
+    display: flex;
+    justify-content: center;
+    padding: 2rem ;
+    color: var(--primary-blue);
+    background-color: var(--dark-bg);
+}
