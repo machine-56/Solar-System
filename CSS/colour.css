@@ -10,5 +10,9 @@
     --secondary-bg: #222831;     /* Dark Gray for cards or sections */
     --star-glow: #FFD700;        /* Star Glow Yellow for sun-like elements */
     --white: #ffffff;
+    --silver: #c0c0c0;
+
+    --card-glow: #7989a9;
+    --card-glow-hov: #4c648c;
   }
   
